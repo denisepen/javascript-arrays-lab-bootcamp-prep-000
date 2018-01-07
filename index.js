@@ -29,7 +29,7 @@ function prependKitten() {
       return kittens3
 }
 function removeLastKitten() {
-     var kittens4 = kittens.sllice(pos,1)
+     var kittens4 = kittens.splice(pos,1)
       return kittens4
 }
 
